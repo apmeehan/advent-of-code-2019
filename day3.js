@@ -1,7 +1,7 @@
 /* PART 1 */
 
 const fs = require('fs');
-const input = fs.readFileSync('day03_input.txt', 'utf-8').trim();
+const input = fs.readFileSync('day3_input.txt', 'utf-8').trim();
 const [path1, path2] = input.split('\n').map(v => v.split(','));
 
 

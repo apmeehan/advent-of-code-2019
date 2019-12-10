@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('day01_input.txt', 'utf-8').trim();
+const input = fs.readFileSync('day1_input.txt', 'utf-8').trim();
 const moduleMasses = input.split('\n').map(Number);
 
 const moduleFuelAmounts = moduleMasses.map(v => {

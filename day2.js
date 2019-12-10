@@ -1,7 +1,7 @@
 /* PART 1 */
 
 const fs = require('fs');
-const input = fs.readFileSync('day02_input.txt', 'utf-8').trim();
+const input = fs.readFileSync('day2_input.txt', 'utf-8').trim();
 const arr = input.split(',').map(Number);
 
 arr[1] = 12;
